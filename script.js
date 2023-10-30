@@ -6,7 +6,7 @@ const promiseFn(){
 	},1000);
  });
 } 
-const output = ocument.getElementById('output');
+const output = document.getElementById('output');
 
 promiseFn()
 	.then((message)=>{
