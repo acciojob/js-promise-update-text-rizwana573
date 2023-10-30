@@ -1,5 +1,5 @@
 //your JS code here. If required.
-const promiseFn(){
+function promiseFn(){
 	return new Promise((resolve, reject) => {
 	setTimeout(()=>{
 		resolve("Hello World!");
