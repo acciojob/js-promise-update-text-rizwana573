@@ -10,7 +10,7 @@ const output = document.getElementById('output');
 
 promiseFn()
 	.then((message)=>{
-		output.innerText = message;
+		output.textContent = message;
 	})
     .catch((error)=>{
 		console.error("An error occured", error);
